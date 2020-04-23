@@ -12,7 +12,7 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  unsigned currentTime=millis();
+  unsigned long currentTime=millis();
   
   if(currentTime-previousTime >= timeDelay)
   {
